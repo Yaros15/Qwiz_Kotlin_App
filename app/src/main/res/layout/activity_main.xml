@@ -11,14 +11,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/descript"
-        android:text="Отгадайте имена 10 персонажей из Гарри Поттера"
+        android:text="@string/descript"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:text="Новая игра"
+        android:text="@string/newGameButton"
         android:id="@+id/newGame"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
