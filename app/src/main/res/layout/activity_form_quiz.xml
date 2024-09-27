@@ -19,7 +19,7 @@
         android:layout_marginTop="60dp"/>
 
     <EditText
-        android:id="@+id/variant"
+        android:id="@+id/answerText"
         android:text="@string/answerText"
         android:textSize="20sp"
         android:layout_width="match_parent"

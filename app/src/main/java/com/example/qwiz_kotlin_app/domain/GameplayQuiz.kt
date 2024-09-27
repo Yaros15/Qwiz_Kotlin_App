@@ -5,14 +5,15 @@ import com.example.qwiz_kotlin_app.data.Puzzle
 class GameplayQuiz {
 
     val readle: Task = Task()
-    var currentPuzzle: Puzzle = Puzzle("", "")
+    lateinit var currentPuzzle: Puzzle
 
     fun selectRandomCollectionItem (){
-        var rand: Int = (Math.random() * readle.riddle.size).toInt()
-        currentPuzzle = readle.riddle.get(rand)
+        val rand: Int = (Math.random() * readle.riddle.size).toInt()
+        currentPuzzle = readle.riddle[rand]
     }
 
     fun getNamePazzleQuestion(): String{
+        selectRandomCollectionItem()
         return currentPuzzle.question
     }
 

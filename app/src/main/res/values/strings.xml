@@ -6,4 +6,6 @@
     <string name="nextButton">Следующий</string>
     <string name="questionText">Вопрос</string>
     <string name="answerText">Ответ</string>
+    <string name="correctly">Правильно</string>
+    <string name="wrong">Неправильно</string>
 </resources>
