@@ -12,6 +12,7 @@ class FormQuizActivity : AppCompatActivity(){
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_form_quiz)
 
         val gameplayQuiz : GameplayQuiz = GameplayQuiz()
 
