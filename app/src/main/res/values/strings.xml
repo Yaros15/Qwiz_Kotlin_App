@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Qwiz_Kotlin_App</string>
+    <string name="descript">Отгадайте имена 10 персонажей из Гарри Поттера</string>
+    <string name="newGameButton">Новая игра</string>
+    <string name="answerButton">Ответить</string>
+    <string name="nextButton">Следующий</string>
+    <string name="questionText">Вопрос</string>
+    <string name="answerText">Ответ</string>
+    <string name="correctly">Правильно</string>
+    <string name="wrong">Неправильно</string>
 </resources>

@@ -8,7 +8,8 @@
     tools:context=".presentation.FormQuizActivity">
 
     <TextView
-        android:text="Вопрос"
+        android:text="@string/questionText"
+        android:textSize="20sp"
         android:id="@+id/question"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,8 +19,9 @@
         android:layout_marginTop="60dp"/>
 
     <EditText
-        android:id="@+id/variant"
-        android:text="Введите ответ:"
+        android:id="@+id/answerText"
+        android:text="@string/answerText"
+        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
@@ -38,17 +40,16 @@
 
         <Button
             android:id="@+id/answer"
-            android:text="Ответить"
+            android:text="@string/answerButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="16dp"/>
+            android:layout_height="wrap_content"/>
 
         <Button
             android:id="@+id/next"
-            android:text="Следующий"
+            android:text="@string/nextButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"/>
+            android:layout_height="wrap_content"/>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
